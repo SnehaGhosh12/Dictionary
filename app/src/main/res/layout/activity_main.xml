@@ -47,16 +47,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <TextView
-                android:id="@+id/origin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Origin"
-                android:textSize="24sp"
-                android:textColor="@color/orange"
-                android:textAlignment="center"
-                android:padding="8dp"
-                android:gravity="center_horizontal"/>
 
             <TextView
                 android:id="@+id/textview_Meaning"

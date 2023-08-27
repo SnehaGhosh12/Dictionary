@@ -38,64 +38,6 @@
             android:gravity="center_horizontal"
             android:textColor="@color/orange"/>
 
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Synomyms"-->
-<!--            android:layout_margin="10dp"-->
-<!--            android:background="@color/white"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textSize="18sp"-->
-<!--            android:padding="8dp"-->
-<!--            android:textAlignment="center"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:textColor="@color/orange"/>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/textview_Synonyms"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text=""-->
-<!--            android:textSize="16sp"-->
-<!--            android:padding="8dp"-->
-<!--            android:textAlignment="center"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:textStyle="italic"-->
-<!--            android:scrollHorizontally="true"-->
-<!--            android:singleLine="true"-->
-<!--            android:ellipsize="marquee"-->
-<!--            android:marqueeRepeatLimit="marquee_forever"-->
-<!--            android:textColor="@color/orange"/>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Antonyms"-->
-<!--            android:layout_margin="10dp"-->
-<!--            android:background="@color/white"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textSize="18sp"-->
-<!--            android:padding="8dp"-->
-<!--            android:textAlignment="center"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:textColor="@color/orange"/>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/textview_Antonyms"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text=""-->
-<!--            android:textSize="16sp"-->
-<!--            android:padding="8dp"-->
-<!--            android:textAlignment="center"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:textStyle="italic"-->
-<!--            android:scrollHorizontally="true"-->
-<!--            android:singleLine="true"-->
-<!--            android:ellipsize="marquee"-->
-<!--            android:marqueeRepeatLimit="marquee_forever"-->
-<!--            android:textColor="@color/orange"/>-->
-
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

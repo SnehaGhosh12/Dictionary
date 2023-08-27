@@ -18,7 +18,7 @@ import com.example.dictionary.Models.API_Response;
 public class MainActivity extends AppCompatActivity {
 
     SearchView search_view;
-    TextView textview_Word, origin;
+    TextView textview_Word;
     RecyclerView recycler_Phonetics,recycler_Meaning;
     ProgressDialog progressDialog;
     PhoneticAdapters phoneticAdapters;
@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
         search_view = findViewById(R.id.search_view);
         textview_Word = findViewById(R.id.textview_Word);
-        origin = findViewById(R.id.origin);
         recycler_Meaning = findViewById(R.id.recycler_Meaning);
         recycler_Phonetics = findViewById(R.id.recycler_Phonetics);
         progressDialog = new ProgressDialog(this);
@@ -78,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void showData(API_Response apiResponse) {
         textview_Word.setText("Word: "+apiResponse.getWord());
-        origin.setText("Origin: "+apiResponse.getOrigin());
         recycler_Phonetics.setHasFixedSize(true);
         recycler_Phonetics.setLayoutManager(new GridLayoutManager(this,1));
         phoneticAdapters = new PhoneticAdapters(this,apiResponse.getPhonetics());
